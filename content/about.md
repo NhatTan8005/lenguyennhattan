@@ -2,7 +2,6 @@
 title: About
 description: 'Introducing myself'
 author: Nhat Tan
-image: img/anh dai dien.jpg
 
 ---
 
