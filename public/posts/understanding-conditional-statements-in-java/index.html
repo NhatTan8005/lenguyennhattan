@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Tìm hiểu về các cầu lệnh điều khiểu có trong Java | Nhật Tân</title>
+<meta property="og:title" content="Tìm hiểu về các cầu lệnh điều khiểu có trong Java | Nhật Tân" />
+<meta name="twitter:title" content="Tìm hiểu về các cầu lệnh điều khiểu có trong Java | Nhật Tân" />
+<meta itemprop="name" content="Tìm hiểu về các cầu lệnh điều khiểu có trong Java | Nhật Tân" />
+<meta name="application-name" content="Tìm hiểu về các cầu lệnh điều khiểu có trong Java | Nhật Tân" />
+<meta property="og:site_name" content="Blog" />
+
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta property="og:locale" content="en-us" />
+<meta name="language" content="en-us" />
+
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/posts/understanding-conditional-statements-in-java/" title="" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2024-12-24T00:00:00Z />
+    <meta property="article:published_time" content=2024-12-24T00:00:00Z />
+    <meta property="og:url" content="http://localhost:1313/posts/understanding-conditional-statements-in-java/" />
+
+    
+    <meta property="og:article:author" content="Nhat Tan" />
+    <meta property="article:author" content="Nhat Tan" />
+    <meta name="author" content="Nhat Tan" />
+    
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Tìm hiểu về các cầu lệnh điều khiểu có trong Java",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2024-12-24",
+        "description": "",
+        "wordCount":  708 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2024-12-24",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Nhật Tân"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.140.1">
+
+    
+    <meta property="og:url" content="http://localhost:1313/posts/understanding-conditional-statements-in-java/">
+  <meta property="og:site_name" content="Nhật Tân">
+  <meta property="og:title" content="Tìm hiểu về các cầu lệnh điều khiểu có trong Java">
+  <meta property="og:description" content="–
+Câu lệnh điều kiện trong Java rất quan trọng vì chúng cho phép các lập trình viên thực hiện các hành động khác nhau dựa trên các điều kiện đã chỉ định. Hướng dẫn này sẽ cung cấp ví dụ rõ ràng và những cái nhìn thực tế về các loại câu lệnh điều kiện, giúp nâng cao kỹ năng lập trình của bạn.
+Câu Lệnh Điều Kiện Là Gì? Câu lệnh điều kiện điều khiển luồng chương trình bằng cách đánh giá các biểu thức boolean. Tùy thuộc vào kết quả của điều kiện, một phần mã nhất định sẽ được thực thi. Điều này rất quan trọng khi xây dựng ứng dụng động phản hồi đầu vào của người dùng và các biến đổi khác. Theo báo cáo từ Stack Overflow, khoảng 85% lập trình viên sử dụng logic điều kiện hàng ngày, điều này cho thấy tầm quan trọng của nó.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-12-24T00:00:00+00:00">
+
+
+    
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tìm hiểu về các cầu lệnh điều khiểu có trong Java">
+  <meta name="twitter:description" content="–
+Câu lệnh điều kiện trong Java rất quan trọng vì chúng cho phép các lập trình viên thực hiện các hành động khác nhau dựa trên các điều kiện đã chỉ định. Hướng dẫn này sẽ cung cấp ví dụ rõ ràng và những cái nhìn thực tế về các loại câu lệnh điều kiện, giúp nâng cao kỹ năng lập trình của bạn.
+Câu Lệnh Điều Kiện Là Gì? Câu lệnh điều kiện điều khiển luồng chương trình bằng cách đánh giá các biểu thức boolean. Tùy thuộc vào kết quả của điều kiện, một phần mã nhất định sẽ được thực thi. Điều này rất quan trọng khi xây dựng ứng dụng động phản hồi đầu vào của người dùng và các biến đổi khác. Theo báo cáo từ Stack Overflow, khoảng 85% lập trình viên sử dụng logic điều kiện hàng ngày, điều này cho thấy tầm quan trọng của nó.">
+
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/posts/understanding-conditional-statements-in-java/">
+    <link href="/style.min.e390ba7da26222f4dc42a349955d76dbbe44e5ce2535a43de5a70633a0a9ec3c.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+</head>
+<body data-theme = "dark" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        Home
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Posts
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/about/">
+                        About
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Tìm hiểu về các cầu lệnh điều khiểu có trong Java</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2024-12-24T00:00:00&#43;00:00" itemprop="datePublished"> Dec 24, 2024 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <p>&ndash;</p>
+<p>Câu lệnh điều kiện trong Java rất quan trọng vì chúng cho phép các lập trình viên thực hiện các hành động khác nhau dựa trên các điều kiện đã chỉ định. Hướng dẫn này sẽ cung cấp ví dụ rõ ràng và những cái nhìn thực tế về các loại câu lệnh điều kiện, giúp nâng cao kỹ năng lập trình của bạn.</p>
+<h1 id="câu-lệnh-điều-kiện-là-gì">Câu Lệnh Điều Kiện Là Gì?</h1>
+<p>Câu lệnh điều kiện điều khiển luồng chương trình bằng cách đánh giá các biểu thức boolean. Tùy thuộc vào kết quả của điều kiện, một phần mã nhất định sẽ được thực thi. Điều này rất quan trọng khi xây dựng ứng dụng động phản hồi đầu vào của người dùng và các biến đổi khác. Theo báo cáo từ Stack Overflow, khoảng 85% lập trình viên sử dụng logic điều kiện hàng ngày, điều này cho thấy tầm quan trọng của nó.</p>
+<h1 id="câu-lệnh-if">Câu Lệnh If</h1>
+<p>Câu lệnh <code>if</code> là hình thức cơ bản nhất của câu lệnh điều kiện. Nó kiểm tra một điều kiện và nếu điều kiện đúng, sẽ thực thi khối mã tiếp theo.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> number <span style="color:#f92672">=</span> 10;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (number <span style="color:#f92672">&gt;</span> 0) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Number is positive.&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Trong ví dụ trên, chương trình kiểm tra xem biến <code>number</code> có lớn hơn 0 không. Nếu đúng, chương trình sẽ in ra &ldquo;Number is positive.&rdquo;</p>
+<h1 id="câu-lệnh-if-else">Câu Lệnh If-Else</h1>
+<p>Đôi khi, bạn cần thực hiện một khối mã khi điều kiện đúng và một khối khác khi điều kiện sai. Câu lệnh <code>if-else</code> thực hiện yêu cầu này.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> number <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>5;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (number <span style="color:#f92672">&gt;</span> 0) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Number is positive.&#34;</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Number is not positive.&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Ở đây, nếu số không lớn hơn 0, chương trình sẽ thông báo cho người dùng rằng nó không phải là số dương.</p>
+<h1 id="câu-lệnh-else-if">Câu Lệnh Else If</h1>
+<p>Để đưa ra quyết định phức tạp hơn, bạn có thể sử dụng câu lệnh <code>else if</code> để kết hợp nhiều điều kiện.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> number <span style="color:#f92672">=</span> 0;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (number <span style="color:#f92672">&gt;</span> 0) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Number is positive.&#34;</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (number <span style="color:#f92672">&lt;</span> 0) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Number is negative.&#34;</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Number is zero.&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Cấu trúc này giúp chương trình phản hồi chính xác theo giá trị của <code>number</code>.</p>
+<h1 id="câu-lệnh-switch">Câu Lệnh Switch</h1>
+<p>Câu lệnh <code>switch</code> là một lựa chọn thay thế cho câu lệnh <code>if-else</code> khi bạn cần so sánh một biến với nhiều giá trị có thể. Nó rất hữu ích khi so sánh một giá trị đơn lẻ với một tập hợp các giá trị.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> day <span style="color:#f92672">=</span> 3;
+</span></span><span style="display:flex;"><span>String dayName;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">switch</span> (day) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> 1:
+</span></span><span style="display:flex;"><span>        dayName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Monday&#34;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> 2:
+</span></span><span style="display:flex;"><span>        dayName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Tuesday&#34;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> 3:
+</span></span><span style="display:flex;"><span>        dayName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Wednesday&#34;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">default</span>:
+</span></span><span style="display:flex;"><span>        dayName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Invalid day&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(dayName);
+</span></span></code></pre></div><p>Trong ví dụ này, biến <code>day</code> có giá trị là 3, do đó chương trình sẽ in ra &ldquo;Wednesday.&rdquo; Đây là một cách viết mã đơn giản khi xử lý nhiều nhánh.</p>
+<h1 id="toán-tử-ba-ngôi-ternary-operator">Toán Tử Ba Ngôi (Ternary Operator)</h1>
+<p>Java cũng cung cấp một phiên bản rút gọn của câu lệnh <code>if-else</code>, gọi là toán tử ba ngôi. Nó giúp đơn giản hóa mã khi gán giá trị tùy thuộc vào một điều kiện.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> number <span style="color:#f92672">=</span> 5;
+</span></span><span style="display:flex;"><span>String result <span style="color:#f92672">=</span> (number <span style="color:#f92672">&gt;</span> 0) <span style="color:#f92672">?</span> <span style="color:#e6db74">&#34;Positive&#34;</span> : <span style="color:#e6db74">&#34;Not Positive&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(result);
+</span></span></code></pre></div><p>Trong ví dụ này, biến <code>result</code> sẽ được gán giá trị &ldquo;Positive&rdquo; nếu <code>number</code> lớn hơn 0, điều này cho thấy cách áp dụng logic nhanh chóng với toán tử ba ngôi.</p>
+<h1 id="tăng-cường-kỹ-năng-lập-trình">Tăng Cường Kỹ Năng Lập Trình</h1>
+<p>Hiểu biết về câu lệnh điều kiện trong Java là rất quan trọng đối với lập trình viên muốn viết mã hiệu quả và hợp lý. Cho dù sử dụng <code>if</code>, <code>else</code>, <code>switch</code> hay toán tử ba ngôi, việc làm chủ các câu lệnh này giúp bạn xây dựng các ứng dụng xử lý nhiều tình huống khác nhau một cách mượt mà. Để củng cố kiến thức, hãy thực hành lập trình với các tình huống thực tế, ví dụ như xây dựng một dự án nhỏ sử dụng đầu vào của người dùng để phân loại các số hoặc các ngày trong tuần. Điều này sẽ giúp nâng cao sự tự tin và kỹ năng ra quyết định trong lập trình Java.</p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/NhatTan8005" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://www.facebook.com/tann.nhats.9" target="_blank" rel="noopener noreferrer me"
+    title="Facebook">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2024 Nhat Tan.
+        
+    </small>
+</footer>
+
+
+
+
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>

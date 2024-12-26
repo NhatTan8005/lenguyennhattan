@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Nhật Tân</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Nhật Tân</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Tác Động Đến Ngành Công Nghiệp Game</title>
+      <link>http://localhost:1313/posts/java-impacted-game-industry/</link>
+      <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/java-impacted-game-industry/</guid>
+      
+      <description>&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/java-impacted-game-industry/1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Kể từ khi được giới thiệu vào năm 1995, Java đã trở thành một yếu tố quan trọng trong ngành công nghiệp game. Với sự linh hoạt, hiệu suất mạnh mẽ và bộ thư viện phong phú, Java đã trở thành sự lựa chọn yêu thích của các nhà phát triển. Dưới đây là cách Java đã ảnh hưởng đến ngành game, từ các ứng dụng di động đến các game trực tuyến đa người chơi quy mô lớn.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Ứng Dụng Thực Tiễn Của JavaScript</title>
+      <link>http://localhost:1313/posts/practical-applications-of-javascript/</link>
+      <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/practical-applications-of-javascript/</guid>
+      
+      <description>&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;JavaScript đã phát triển từ một ngôn ngữ kịch bản đơn giản thành một công cụ lập trình mạnh mẽ, hỗ trợ vô số ứng dụng trong nhiều lĩnh vực. Hôm nay, chúng ta sẽ khám phá các ứng dụng thực tế của JavaScript, tập trung vào cách nó định hình phát triển web, ứng dụng di động, lập trình server và nhiều hơn thế nữa.&lt;/p&gt;
+&lt;h1 id=&#34;phát-triển-web&#34;&gt;Phát Triển Web&lt;/h1&gt;
+&lt;p&gt;Node.js mở ra cơ hội cho các ứng dụng server mở rộng như ứng dụng thời gian thực (trò chuyện, game). Node.js cải thiện hiệu suất và xử lý hàng ngàn kết nối đồng thời. MERN stack (MongoDB, Express.js, React, Node.js) cho phép xây dựng hệ thống từ backend đến frontend liền mạch.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Tìm hiểu về các cầu lệnh điều khiểu có trong Java</title>
+      <link>http://localhost:1313/posts/understanding-conditional-statements-in-java/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/understanding-conditional-statements-in-java/</guid>
+      
+      <description>&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;Câu lệnh điều kiện trong Java rất quan trọng vì chúng cho phép các lập trình viên thực hiện các hành động khác nhau dựa trên các điều kiện đã chỉ định. Hướng dẫn này sẽ cung cấp ví dụ rõ ràng và những cái nhìn thực tế về các loại câu lệnh điều kiện, giúp nâng cao kỹ năng lập trình của bạn.&lt;/p&gt;
+&lt;h1 id=&#34;câu-lệnh-điều-kiện-là-gì&#34;&gt;Câu Lệnh Điều Kiện Là Gì?&lt;/h1&gt;
+&lt;p&gt;Câu lệnh điều kiện điều khiển luồng chương trình bằng cách đánh giá các biểu thức boolean. Tùy thuộc vào kết quả của điều kiện, một phần mã nhất định sẽ được thực thi. Điều này rất quan trọng khi xây dựng ứng dụng động phản hồi đầu vào của người dùng và các biến đổi khác. Theo báo cáo từ Stack Overflow, khoảng 85% lập trình viên sử dụng logic điều kiện hàng ngày, điều này cho thấy tầm quan trọng của nó.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Lý do tôi chọn Java</title>
+      <link>http://localhost:1313/posts/why-i-choice-java/</link>
+      <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/why-i-choice-java/</guid>
+      
+      <description>&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/why-i-choice-java/1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Java chắc chắn là một trong những ngôn ngữ lập trình phổ biến nhất hiện nay. Những công ty lớn như Google, Amazon và Netflix đều sử dụng Java để xây dựng nhiều phần hạ tầng và dịch vụ backend của họ. Nhưng mặc dù phổ biến (hoặc có lẽ chính vì điều đó), Java khiến lập trình viên có những cảm nhận trái chiều. Có người thích, có người không.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Các cách thực hành tốt nhất cho JavaScript</title>
+      <link>http://localhost:1313/posts/javascript-best-practices/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/javascript-best-practices/</guid>
+      
+      <description>&lt;p&gt;Các Quy Tắc Tốt Nhất Khi Lập Trình JavaScript
+JavaScript không còn nghi ngờ gì nữa là ngôn ngữ lập trình được sử dụng nhiều nhất trên thế giới, đóng vai trò quan trọng trong công nghệ mà chúng ta đều phụ thuộc – Internet. Tuy nhiên, với sức mạnh này cũng đi kèm trách nhiệm lớn, và hệ sinh thái JavaScript đang thay đổi nhanh chóng, khiến việc bắt kịp các quy tắc tốt nhất trở nên khó khăn. Dưới đây là một số quy tắc giúp viết mã JavaScript sạch, dễ bảo trì và hiệu quả hơn.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Java và JavaScript Khác Nhau Như Thế Nào Trong Ứng Dụng và Chức Năng.</title>
+      <link>http://localhost:1313/posts/java-and-javascript-differ/</link>
+      <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/java-and-javascript-differ/</guid>
+      
+      <description>&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;Java và JavaScript, mặc dù có tên gọi tương tự, lại phục vụ các mục đích hoàn toàn khác nhau trong phát triển phần mềm. Hiểu rõ khả năng đặc trưng của từng ngôn ngữ là chìa khóa để lựa chọn đúng công cụ cho từng dự án. Trong khi Java xuất sắc trong việc xây dựng các ứng dụng quy mô lớn và độc lập với nền tảng, thì JavaScript lại tỏa sáng trong việc tạo ra các trải nghiệm web tương tác và động. Hãy cùng tìm hiểu sâu hơn về ứng dụng và chức năng của chúng để hiểu rõ hơn vai trò của từng ngôn ngữ.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>5 mẹo về JavaScript mà tôi ước mình biết khi bắt đầu code</title>
+      <link>http://localhost:1313/posts/5-javascript-tips/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/5-javascript-tips/</guid>
+      
+      <description>&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;JavaScript là một yếu tố quan trọng trong phát triển web, làm nên các tính năng động cho hầu hết các trang web và ứng dụng hiện đại. Là một lập trình viên tự học, tôi đã đối mặt với nhiều thử thách trong giai đoạn đầu. Nếu có thể quay ngược thời gian, tôi sẽ chia sẻ 5 mẹo quan trọng này để quá trình học lập trình của mình suôn sẻ và thú vị hơn.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Vì sao Java và JavaScript là bộ đôi ngôn ngữ lập trình tuyệt vời.</title>
+      <link>http://localhost:1313/posts/java-and-javascript-are-the-best/</link>
+      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/java-and-javascript-are-the-best/</guid>
+      
+      <description>&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;h1 id=&#34;hiểu-về-java&#34;&gt;Hiểu về Java&lt;/h1&gt;
+&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng đa năng, ra đời từ những năm 1990. Phương châm chính của Java – &amp;ldquo;Viết một lần, chạy mọi nơi&amp;rdquo; (Write Once, Run Anywhere - WORA) – thể hiện khả năng chạy đa nền tảng của nó. Mã Java được biên dịch thành bytecode và có thể chạy trên bất kỳ hệ thống nào có Java Virtual Machine (JVM).&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Xây Dựng Nền Tảng Vững Chắc Cho Lập Trình JavaScript.</title>
+      <link>http://localhost:1313/posts/javascripts-basic/</link>
+      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/javascripts-basic/</guid>
+      
+      <description>&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;h1 id=&#34;hiểu-các-khái-niệm-cơ-bản&#34;&gt;Hiểu Các Khái Niệm Cơ Bản&lt;/h1&gt;
+&lt;p&gt;Để lập trình JavaScript, bạn chỉ cần một trình soạn thảo văn bản và trình duyệt web. Các công cụ phổ biến như Visual Studio Code hoặc Sublime Text giúp bạn dễ dàng viết mã, với tính năng làm nổi bật cú pháp. Ngoài ra, bạn có thể thử mã trực tiếp trong tab &amp;ldquo;Console&amp;rdquo; trên các công cụ dành cho nhà phát triển của trình duyệt như Chrome.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
